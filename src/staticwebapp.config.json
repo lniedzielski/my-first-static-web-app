@@ -59,9 +59,7 @@
     "rewrite": "index.html",
     "exclude": ["/images/*.{png,jpg,gif}", "/css/*"]
   },
-  "networking": {
-    "allowedIpRanges": ["84.226.88.86/24"]
-  },
+ 
   "responseOverrides": {
     "400": {
       "rewrite": "/invalid-invitation-error.html"
